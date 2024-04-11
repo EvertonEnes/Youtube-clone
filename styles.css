@@ -31,7 +31,7 @@ html{
 }
 
 .logo{
-    margin-left: 20px;
+    margin-left: 2rem;
 }
 
 .search-bar{
@@ -85,9 +85,11 @@ hr{
 
 .menu{
     display: flex;
+    width: 100%;
+    margin-right: 10rem;
+    justify-content: end;
     align-items: center;
     gap: 3rem;
-    margin-left: 25rem;
 }
 
 .icone-menu1{
@@ -100,7 +102,7 @@ hr{
 }
 
 .imagem-video {
-    width: 100%;
+    width: 95%;
     height: auto;
     cursor: pointer;
     border-radius: 1.5rem;
@@ -112,11 +114,11 @@ hr{
 }
 
 .grid {
-    padding-top: 150px;
-    margin-left: 220px;
+    padding-top: 15rem;
+    margin-left: 25rem;
+    margin-right: 2.8rem;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    gap: 20px;
 }
 
 .usuario{
@@ -135,19 +137,18 @@ hr{
     cursor: pointer;    
 }
 
-
 .legenda{
     display: flex;
     flex-direction: column;
     font-size: 1.4rem;
-    margin-bottom: 50px;
+    margin-bottom: 5rem;
 }
 
 .texto-video{
     margin-left: 1rem;
     margin-top: 1.3rem;
-    width: 235px;
-    max-height: 33px;
+    width: 23.5rem;
+    max-height: 3.3rem;
     overflow-y: hidden;
     font-size: 1.4rem;
     font-weight: 600;
@@ -163,17 +164,17 @@ hr{
 }
 
 .categorias{
-    height: 50px;
+    height: 5rem;
     background: white;
     position: absolute;
-    margin-left: 150px;
-    margin-top: -10px;
+    margin-left: 15rem;
+    margin-top: -1rem;
     top: 100%;
 }
 
 .section-category{
     display: flex;
-    gap: 0 13px;
+    gap: 0 1.3rem;
     overflow: hidden;
     flex-wrap: nowrap;
     max-width: 75%;
@@ -249,13 +250,13 @@ hr{
 @media screen and (max-width: 768px) {
     .grid {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        gap: 15px;
+        gap: 1.5rem;
     }
 }
 
 @media screen and (max-width: 480px) {
     .grid {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-        gap: 10px;
+        gap: 1rem;
     }
 }
